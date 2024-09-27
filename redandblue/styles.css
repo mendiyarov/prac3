@@ -1,0 +1,114 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 100px 30px;
+}
+
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: #fff;
+    border-top: 2px solid #dc3545;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control {
+    border-radius: 5px;
+}
+
+form .btn {
+    background-color: #dc3545;
+    border: none;
+}
+
+form .btn:hover {
+    background-color: #c82333;
+}
+
+.media {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.media img {
+    border-radius: 10px;
+}
+
+.media-body {
+    margin-left: 20px;
+}
+
+table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #dc3545;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.alert {
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 50px 20px;
+    }
+
+    .carousel-item {
+        height: 300px;
+    }
+}
